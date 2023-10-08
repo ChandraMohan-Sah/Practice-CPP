@@ -20,12 +20,23 @@
     10. upper_bound(starting_index, ending_index, key); //returns address
 
 
-    # What is ending index ??
-    Suppose this array :  arr[] = {12, 35, 45, 23, 2344 };
-    
-      0     1    2    3     4      5-->this is ending index (arr + n);
-    ----------------------------   
-    | 12 | 35  | 45 | 23 | 2344 |  
-    ----------------------------
+    Question
+    1. What is ending index ??
+        Suppose this array :  arr[] = {12, 35, 45, 23, 2344 };
+        
+      Index:  0     1     2     3     4       5-->this is ending index (arr + n);
+            ----------------------------   
+            | 12 | 35  | 45 | 23 | 2344 |  
+            ----------------------------
+
+    2. How can index be obtained from two different addresses ?
+        index = address1 - address2; 
+        (like address1 can be obtained from lower_bound function)
+        (like address2 can be obtained from upper_bound function)
+
+    3. How to obtain freq of an element in an array ; Provided array is sorted ?
+        
+        freq = upper_bound - lower_bound;
+        Here, Subtraction of two addresses gives index which is equivalent to freq of an element.
 
 */
