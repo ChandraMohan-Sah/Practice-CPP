@@ -22,15 +22,15 @@
         final_answer = (semi_answer | set_mask)
 
           number  = 1 0 1 0 
-        clearmask = 1 0 0 0 (1 << 3bits)
-       ~clearmask = 0 1 1 1 
-    semi_answer   = 0 0 1 0 (number & (~clearmask)) 
+        clearmask = 0 1 0 0 (1 << 2nd bit)
+       ~clearmask = 1 0 1 1 
+    semi_answer   = 1 0 1 0 (number & (~clearmask)) 
 
-    semi_answer   = 0 0 1 0
+    semi_answer   = 1 0 1 0
         set_mask  = 0 v 0 0 (v << i=2nd bits) : v can be 0 or 1 as per user input.
-    final_answer  = 0 v 1 0 (semi_answer | set_mask)
+    final_answer  = 1 v 1 0 (semi_answer | set_mask)
 
-    final_answer  = 0 v 1 0 (Hence, 2nd bit has been set as per user input.)
+    final_answer  = 1 v 1 0 (Hence, 2nd bit has been set as per user input.)
     -------------------------------------------------------------------------
 
     NOTE : v is bit to be set as per user need
