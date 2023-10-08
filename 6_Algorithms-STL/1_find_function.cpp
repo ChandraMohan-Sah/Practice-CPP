@@ -19,6 +19,7 @@ int main()
     int n = sizeof(arr)/sizeof(int);
 
     int *ans =  find(arr, arr+n, key); //pointer variable toring address
+    //cout<<ans;
     int index = ans - arr; //stores index of key .see copy
                 // address1- address2 = index of key
 

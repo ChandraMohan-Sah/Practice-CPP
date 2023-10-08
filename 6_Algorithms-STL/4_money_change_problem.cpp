@@ -19,7 +19,7 @@ int main()
     cin >> money;
 
     while(money > 0){
-        int index = lower_bound(coins, coins+n, money, compare ) - coins -1; 
+        int index = lower_bound(coins, coins+n, money, compare ) - coins -1; //gives >= key. But to change to <=key used compare function
         cout<<"We would give exchange of coins "<< coins[index] <<endl;
         money = money - coins[index];    
     }

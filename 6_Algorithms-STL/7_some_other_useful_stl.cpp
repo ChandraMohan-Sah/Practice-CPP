@@ -1,11 +1,12 @@
 /*  SUMMARY
 
-    1. rotate(3-args);
-    2. reverse(2-args);
-    3. swap(2-args);
-    4. min(2-args);
-    5. max(2-args);
+    1. rotate(starting_index, rotate_about_x_index_to_left,  ending_index);
+    2. reverse(starting_index, ending_index);
+    3. sort(starting_index, ending_index)
 
+    4. swap(1st_num, 2nd_num);
+    5. min(1st_num, 2nd_num); min(a, min(b,c));
+    6. max(1st_num, 2nd_num);
 */
 
 
@@ -50,6 +51,13 @@ int main()
     cout<<"Minimum : "<< min(a,b)<<endl;
     cout<<"Maximum : "<<max(a, max(a,b))<<endl;
 
+    /* sort(starting_index, ending_index) */
+    cout<<"Before Sort : ";
+    printArray(arr, n);
+
+    cout<<"After Sort : ";
+    sort(arr, arr+n);
+    printArray(arr, n);
 
     return 0;
 }
