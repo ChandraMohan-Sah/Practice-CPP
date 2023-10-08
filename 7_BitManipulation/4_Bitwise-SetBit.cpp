@@ -1,7 +1,7 @@
 /* SUMMARY
 
 1.SetBit at given bit postion :
-    e.g number = 10 ; Set bit(v=1) at i=2nd position
+    e.g number = 10 ; Set bit(v=0) at i=3rd position
 
     Before Operation:
     bits:  3   2   1   0th bit(L.S.B)
@@ -12,7 +12,7 @@
     After Operation:
     bits:  3   2   1   0th bit(L.S.B)
          -----------------
-         | 1 | 1 | 1 | 0 |  ==> 14
+         | 0 | 0 | 1 | 0 |  ==> 2
          -----------------
 
     ---------------------------------------------------------------------
@@ -22,15 +22,15 @@
         final_answer = (semi_answer | set_mask)
 
           number  = 1 0 1 0 
-        clearmask = 0 1 0 0 (1 << 2nd bit)
-       ~clearmask = 1 0 1 1 
-    semi_answer   = 1 0 1 0 (number & (~clearmask)) 
+        clearmask = 1 0 0 0 (1 << 3rd bit)
+       ~clearmask = 0 1 1 1
+    semi_answer   = 0 0 1 0 (number & (~clearmask)) 
 
-    semi_answer   = 1 0 1 0
+    semi_answer   = 0 0 1 0
         set_mask  = 0 v 0 0 (v << i=2nd bits) : v can be 0 or 1 as per user input.
-    final_answer  = 1 v 1 0 (semi_answer | set_mask)
+    final_answer  = 0 v 1 0 (semi_answer | set_mask)
 
-    final_answer  = 1 v 1 0 (Hence, 2nd bit has been set as per user input.)
+    final_answer  = 0 v 1 0 (Hence, 2nd bit has been set as per user input.)
     -------------------------------------------------------------------------
 
     NOTE : v is bit to be set as per user need
