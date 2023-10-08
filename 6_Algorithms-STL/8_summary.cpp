@@ -16,8 +16,8 @@
     8. binary_search(starting_index, ending_index, key) // return boolean value (true or false)
         So, It Must be stored in boolean vaiable (like bool index).
 
-    9.  lower_bound(starting_index, ending_index, key);  //returns address
-    10. upper_bound(starting_index, ending_index, key); //returns address
+    9.  lower_bound(starting_index, ending_index, key); //returns address of element >=key
+    10. upper_bound(starting_index, ending_index, key); //returns address of element  >key
 
 
     Question
