@@ -42,7 +42,7 @@ int main()
     cout<<"Decreasing Sequence : ";
     DecreasingSequence(n);
 
-    cout<<endl<<"Increasing Sequence : ";
+    cout<<"Increasing Sequence : ";
     IncreasingSequence(n);
     return 0;
 }
