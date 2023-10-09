@@ -3,8 +3,8 @@ SUMMARY : About Left Shift
 
 int a = 1; In Bits : 0001
 
-index: 0   1   2   3rd index 
- bits: 3   2   1   0th bit(L.S.B)
+index:  0   1   2   3rd index 
+ bits:  3   2   1   0th bit(L.S.B)
       -----------------
       | 0 | 0 | 0 | 1 |
       -----------------
