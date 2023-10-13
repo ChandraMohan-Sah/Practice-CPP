@@ -25,10 +25,10 @@
     1. What is ending index ??
         Suppose this array :  arr[] = {12, 35, 45, 23, 2344 };
         
-      Index:  0     1     2     3     4       5-->this is ending index (arr + n);
-            ----------------------------   
-            | 12 | 35  | 45 | 23 | 2344 |  
-            ----------------------------
+      Index:  0     1     2     3     4    5-->this is ending index (arr + n);
+            ----------------------------------- 
+            | 12 | 35  | 45 | 23 | 2344 |     |
+            -----------------------------------
 
     2. How can index be obtained from two different addresses ?
         index = address1 - address2; 
