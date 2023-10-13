@@ -2,16 +2,17 @@
 using namespace std;
 
 
-/*--------------------My Approach---------------------*/
+/*-------------------Iterator Approach---------------------*/
 
 bool CheckSorted(int *arr, int n, int index = 0){
 
     // Base Case: If the array is empty or we've printed all elements
-    if (n == 0 || index == n) { //elements are up to (n-1) ; n means we finished all elements 
+    if (n == 0 || index == n-1) { //elements are up to (n-1) ; n means we finished all elements 
         return 1;
     }
 
     //Output to be printed if any in each intermediate execution
+
 
     //Recursive Case
     if(arr[index]< arr[index+1]){
@@ -43,7 +44,7 @@ bool isSorted(int *a, int n){
 
 int main()
 {
-    int arr[] = {};
+    int arr[] = {1,2,3,4,5};
     int n = sizeof(arr)/sizeof(int);
 
     bool ans1 = CheckSorted(arr,n);

@@ -18,8 +18,8 @@ void DecreasingSequence(int n){
 
     //Recursive Case
     cout<<n<<" ";
-    //cout<<DecreasingSequence(n-1)<<endl; shows error why ??
-    // return DecreasingSequence(n-1); --> This also works
+    //cout<<DecreasingSequence(n-1)<<endl; shows error why ?? --How can a function be output, A function can be called or returned
+    //return DecreasingSequence(n-1); --> This also works
     DecreasingSequence(n-1);
 }
 
