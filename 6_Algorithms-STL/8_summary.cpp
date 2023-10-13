@@ -1,4 +1,5 @@
 /*  SUMMARY
+    #include<algorithm> header file
 
     1. rotate(starting_index, rotate_about_x_index_to_left,  ending_index);
     2. reverse(starting_index, ending_index);
