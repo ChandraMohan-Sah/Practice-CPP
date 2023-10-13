@@ -31,12 +31,20 @@
             -----------------------------------
 
     2. How can index be obtained from two different addresses ?
-        index = address1 - address2; 
+        index = address1 - address2;  
+        (suppose :
+            address1 = 1024, address2 = 1008
+            then, index = 1024 - 1008 = 3;
+            Assuming 8 byte for size of one bucket for integer.
+            :Understand accessing element using pointer for more clarity.
+        )
         (like address1 can be obtained from lower_bound function)
         (like address2 can be obtained from upper_bound function)
 
+
+
     3. How to obtain freq of an element in an array ; Provided array is sorted ?
-        
+
         freq = upper_bound - lower_bound;
         Here, Subtraction of two addresses gives index which is equivalent to freq of an element.
 

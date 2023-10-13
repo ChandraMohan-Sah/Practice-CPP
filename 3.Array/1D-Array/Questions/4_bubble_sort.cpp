@@ -26,7 +26,7 @@ int main()
 
     //--------------------logic--------------------------->
 
-    for(int i=0; i<=n-2; i++){
+    for(int i=0; i<=n-2; i++){ //kati patak inner loop chalnu paryo
         for(int j = 0; j<=n-2; j++){
             if(arr[j]>arr[j+1]){
                 swap(arr[j], arr[j+1]);
