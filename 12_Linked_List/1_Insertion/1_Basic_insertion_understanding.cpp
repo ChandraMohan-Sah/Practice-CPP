@@ -11,7 +11,7 @@
     +---+---+      [  +-----+-----+  ]
     Address
 
-
+        
 ->head la address store garxa .And its address ko value  changes as per the node currently being accessed.
     e.g head->data ; gives data field of node currently being pointed.
         head->next ; gives next address field of node connected to current node.
