@@ -43,30 +43,24 @@ node* take_input(node* &head){ //modify head
 }
 
 
-void ReverseList(node* &head){ //modification of head is done ; So pass by reference .
-
-    if(head == NULL || head->next == NULL){
-        return;
-    }
-
+void ReverseListRecursive(node* &head){ //modification of head is done ; So pass by reference .
     node* prev = NULL;
     node* current = head;
-    node* temp;  
+    node* temp;
 
-    while(current != NULL){
-        //save the next node
-        temp = current->next;
-
-        //make current node point to prev
-        current->next = prev;
-
-        //update prev and current ; Take 1 step forward
-        prev = current;
-        current = temp;
+    //base case
+    if(current == NULL){
+        return ;
     }
-    
-    head = prev;
-    return;
+
+    //recursive case
+    temp = current->next;
+    current->next = prev;
+
+    prev = current;
+    current = temp;
+
+    return ReverseListRecursive(current);
 }
 
 
@@ -80,7 +74,7 @@ int main()
 
 
     cout<<"Reversed Linked List : "<<endl;
-    ReverseList(head);
+    ReverseListRecursive(head);
     print(head);
 
 
