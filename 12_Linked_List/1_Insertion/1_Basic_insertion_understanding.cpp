@@ -23,6 +23,15 @@
   in the head pointer.
 
 
+NOTE : Few pointer vairables
+    
+   1. void Addition(int* var); var is pointer variable of type int. ; var is passed as "pass by value";
+   2. void Addition(int* &var);  ......; var is passed as "pass by reference";
+
+   3. void Insertion(node* value);    value is pointer variable of type node.; value is passed as "pas by value";
+   4. void Insertion(node* &value);   value is pointer vaiable of type node ; value is passed as "passed as reference";
+                                    Used to modify actual value of "value" pointer.
+
 */
 
 

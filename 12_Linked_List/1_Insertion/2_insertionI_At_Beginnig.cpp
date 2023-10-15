@@ -13,7 +13,7 @@ class node{
 };
 
 
-void InsertAtBeginning(node* &head, int data){
+void InsertAtBeginning(node* &head, int data){ //what happens , if head is not passed with reference ?
     if(head == NULL){
         head = new node(data);
         return;
@@ -25,7 +25,7 @@ void InsertAtBeginning(node* &head, int data){
 }
 
 
-void print(node* head){
+void print(node* head){  
     while(head != NULL){
         cout<< head->data << "->";
         head = head->next;

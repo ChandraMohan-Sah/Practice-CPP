@@ -26,7 +26,8 @@ void InsertAtTail(node* &head , int data){
         head = new node(data);
         return;
     }
-    node * tail = head;
+    node * tail = head; //Note this is created statically ,get deleted as soon as function call is removed.
+                        //However, dynamically created node donot gets deleted.
     while(tail -> next != NULL){
         tail = tail->next;
     }

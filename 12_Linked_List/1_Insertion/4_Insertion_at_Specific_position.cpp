@@ -22,10 +22,12 @@ void print(node* head){
 
 int length(node* head){
     int count =0;
+
     while( head !=NULL ){
         count++;
         head = head->next;
     }
+
     return count;
 
 }
@@ -60,27 +62,26 @@ void  InsertAtSpecPosition(node * &head, int data , int p){
         InsertAtBeginning(head, data);
         return;
     }
-    else if(p> length(head)){
+    else if(p>length(head)){
         InsertAtTail(head, data);
         return;
     }
     else{
         //take p-1 jumps
         int jump =1;
-        node* temp = head;
+        node* temp = head; //storing head address in temp pointer
         while(jump <= p-1){
             temp = temp -> next;
             jump++;
         }
 
         //create a new node
-        node * n = new node(data);
-        n -> next = temp ->next;
+        node *n = new node(data);
+        n -> next = temp ->next; //Repositioning
         temp->next =n;
-
     }
-
 }
+
 
 int main(){
     node* head = NULL;
@@ -98,8 +99,9 @@ int main(){
     int position; 
     cout<<"Enter Position : "<<endl;
     cin>>position;
-
     InsertAtSpecPosition(head, 99, position);
+
     print(head);
 }
+
 
