@@ -37,14 +37,12 @@ void InsertAtBeginnig(node * &head, int data){
     head =n; 
 }
 
-bool Searching(node* head, int key){
-    node* temp = head;
-
-    while( temp != NULL){
-        if(temp->data == key){
+bool Searching(node* head, int key){ //NO modification; pass by value
+    while( head != NULL){
+        if(head->data == key){
             return true;
         }
-        temp = temp->next;
+        head = head->next;
     }    
     return false;
 }

@@ -23,8 +23,6 @@ int main()
         binary_num /= 10; //remove the last digit 
     }
 
-
-
     cout << " Decimal Number of "<< num << " is "<<decimal_num;
     return 0;
 }
