@@ -21,7 +21,7 @@ int main(){
     char ch;
     int count = 0;
 
-    while(ch! = '$'){
+    while(ch != '$'){
         ch = cin.get();
         count++;
     }

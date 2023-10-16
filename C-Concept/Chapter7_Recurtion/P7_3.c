@@ -27,6 +27,7 @@ int series(int n)
 	return sum;
 }/*End of series()*/
 
+
 /*Recursive function*/
 int rseries(int n)
 {
@@ -37,3 +38,4 @@ int rseries(int n)
 	printf("%d + ",n);
 	return sum;
 }/*End of rseries()*/
+

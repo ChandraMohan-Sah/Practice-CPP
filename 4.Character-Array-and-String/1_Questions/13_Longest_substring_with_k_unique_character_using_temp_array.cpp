@@ -1,2 +1,0 @@
-/* Seee video . Important for other concept
-*/
