@@ -24,6 +24,7 @@ float power(float a,int n)
 		return(a * power(a,n-1));
 }/*End of power()*/
 
+
 /*Iterative*/
 float Ipower(float a,int n)
 {

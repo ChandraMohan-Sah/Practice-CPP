@@ -1,4 +1,17 @@
-/*P7.7 Program to print prime factors*/
+/*P7.7 Program to print prime factors
+
+	A prime factor is a prime number that can exactly divide another 
+	number without leaving a remainder. In other words, it is a prime 
+	number that is a factor of a given integer.
+
+For example : The prime factors of 12 are 2 and 3 because:
+------------------------------------------------------------
+	2 is a prime number, and 12 is divisible by 2 (12 ÷ 2 = 6, and 6 ÷ 2 = 3), so 2 is a prime factor of 12.
+
+	3 is also a prime number, and 12 is divisible by 3 (12 ÷ 3 = 4), so 3 is a prime factor of 12.
+
+*/
+
 #include<stdio.h>
 void PFactors(int num);
 void IPFactors(int n);

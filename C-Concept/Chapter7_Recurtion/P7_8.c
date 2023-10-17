@@ -32,3 +32,4 @@ int gcd(int a,int b)
 	}
 	return a;
 }/*End of gcd()*/
+

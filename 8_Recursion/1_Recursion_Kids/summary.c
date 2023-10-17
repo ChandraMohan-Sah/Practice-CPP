@@ -26,4 +26,3 @@
 	/*P7.12 Program to find the factorial of a number by tail recursion*/
 
 	/*P7.13 Program to search an element through binary search*/
-

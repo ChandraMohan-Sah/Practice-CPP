@@ -26,13 +26,23 @@ void DecreasingSequence(int n){
 
 void IncreasingSequence(int n){
     //Base Case
+    if(n == 1){
+        cout<<n<<" ";
+        return;
+    }
+
+    /* 
+    This base case is also correct.
     if(n == 0){
         return;
     }
 
+    */
+
     //Recursive Case
     IncreasingSequence(n-1); //slight Difference
     cout<<n<<" ";
+
 }
 
 

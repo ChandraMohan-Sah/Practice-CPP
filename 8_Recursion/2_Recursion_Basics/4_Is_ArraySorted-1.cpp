@@ -7,7 +7,7 @@ using namespace std;
 bool CheckSorted(int *arr, int n, int index = 0){
 
     // Base Case: If the array is empty or we've printed all elements
-    if (n == 0 || index == n-1) { //elements are up to (n-1) ; n means we finished all elements 
+    if (n == 0 || index == n-1) { //elements are up to 0 to (n-1) ; n means we finished all elements 
         return 1;
     }
 
