@@ -5,6 +5,7 @@
         2.Diplay Decreasing number N to 1.
         3.Display prime numbers till N.
         4.Generate fibonacci series.
+        5.Int-to-string [array]
     
         +-------------------+
         | //Base case hit
@@ -38,7 +39,7 @@
     void return type , Passing more than 1 arguments in recursive function.
         1.Convert a positive decimal number to Binary, Octal or Hexadecimal
     
-------------------------------Array---------------------------------------------------
+------------------------------Array / String---------------------------------------------------
     Array, int/bool return type , Passing more than 1 arguments in recursive function:
         1.First Occurance 
         2.Last Occurance
@@ -46,9 +47,12 @@
         4.Is array Sorted
         5.Binary Search
         6.Bubble Sort
+        7.string to int.
     
-    Array, void return type , Passing more than 1 arguments in recursive function:    
-        1.Joseph Problem
+    Array, void return type , Passing more than 1 arguments in recursive function: 
+        1.Print array without loop 
+        2.Int to string.[One args sent to function]
+        3.Joseph Problem.
 
 
 -----------------------------Stack----------------------------------------------------
