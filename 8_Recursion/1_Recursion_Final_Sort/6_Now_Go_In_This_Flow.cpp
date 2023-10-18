@@ -2,10 +2,10 @@
 
 ------------------------------Array / String---------------------------------------------------
     Array, int/bool return type , Passing more than 1 arguments in recursive function:
-        1.First Occurance 
-        2.Last Occurance
-        3.Print_all occurance_index
-        4.Is array Sorted
+        1.Is array Sorted
+        2.First Occurance 
+        3.Last Occurance
+        4.Print_all occurance_index
         5.Binary Search
         6.Bubble Sort
         7.string to int.

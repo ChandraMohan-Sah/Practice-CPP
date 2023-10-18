@@ -17,8 +17,6 @@ void printPrimeFactors(int n, int divisor = 2) {
 }
 
 
-
-
 int main() {
     int n;
     cout << "Enter a number to find its prime factors: ";
