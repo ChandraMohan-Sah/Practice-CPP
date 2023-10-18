@@ -12,6 +12,7 @@ int main(void)
 	return 0;
 }/*End of main()*/
 
+
 /*Recursive*/
 int GCD(int a,int b)   
 {
@@ -19,6 +20,8 @@ int GCD(int a,int b)
 		return a;
 	return GCD(b, a%b);
 }/*End of GCD()*/
+
+
 
 /*Iterative*/
 int gcd(int a,int b)

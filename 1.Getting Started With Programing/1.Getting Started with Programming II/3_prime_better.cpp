@@ -7,6 +7,10 @@ int main()
     int n;
     cin >>n;
 
+    if(n<=1){
+        cout<<"Non-Prime Number";
+    }
+
     int i=2;
     bool flag =0;
     while(i<n){            ///Optimal approach : while(i<sqrt(n)) .... greater then value of sqrt(n) will be multiple of smaller number 

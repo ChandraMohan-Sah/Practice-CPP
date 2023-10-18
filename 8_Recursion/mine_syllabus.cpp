@@ -3,8 +3,6 @@
     void return type ; (printing series typed) ----Passing 1 arguments to Recursive Function.
         1.Diplay increasing number 1 to N.
         2.Diplay Decreasing number N to 1.
-        3.Display prime numbers till N.
-        4.Generate fibonacci series.
         5.Int-to-string [array]
     
         +-------------------+
@@ -20,7 +18,9 @@
 
     int return type; ----Passing 1 arguments to Recursive Function.
         1.Find sum till N.
-        2.Find fibonacci number.
+        2.Find Factorial of a number.
+        3.Find fibonacci number.
+
 
         +--------------------------+
         |   return _Recursive case
@@ -28,6 +28,14 @@
         |   return __Base Case
         |
         +--------------------------+
+    
+    (void, int) combo : 
+        -void for printing; 
+        -int to return if that number is valid to be printed or not .
+
+        1.Print Prime numbers till N.
+        2.Generate Fibonacci sequence till N.
+
 
     int return type , Passing more than 1 arguments in recursive function(Updation in args each time).
         Calculate:
@@ -38,6 +46,7 @@
     
     void return type , Passing more than 1 arguments in recursive function.
         1.Convert a positive decimal number to Binary, Octal or Hexadecimal
+
     
 ------------------------------Array / String---------------------------------------------------
     Array, int/bool return type , Passing more than 1 arguments in recursive function:
