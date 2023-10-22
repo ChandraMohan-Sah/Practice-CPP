@@ -8,6 +8,8 @@ int LastOccurance(int *arr, int n, int key, int index=0){
         return -1;
 
     //Recursive Case
+    
+    //if key found then search next occurance
     if(arr[index] == key){  
         int bigger_index = LastOccurance(arr, n, key, index +1);
         if(bigger_index != -1){
@@ -30,4 +32,3 @@ int main()
 
     return 0;
 }
-

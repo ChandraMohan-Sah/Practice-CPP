@@ -32,7 +32,7 @@ int FirstOccurance(int *arr, int n, int key){
 
 int FirstOccuranceUsingIterator(int *arr, int n, int key, int index=0 ){
     //Base Case
-    if(index == n)
+    if(index == n)//completed acessing all elements ;
         return -1;
     
     //recursive case

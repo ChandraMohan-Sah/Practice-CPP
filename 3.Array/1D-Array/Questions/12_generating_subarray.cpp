@@ -3,9 +3,9 @@ using namespace std;
 
 void Generating_Subarray(int arr[], int n){
 
-    for(int i=0; i<n; i++){             // loop for Starting point
-        for(int j = i; j<n; j++){       //loop for ending point
-            for(int k=i; k<=j; k++ ){   /* k=i (starting point) k<=(Ending Point) ; Print element between i and j i.e subarray*/
+    for(int i=0; i<n; i++){             //(i=0)loop for Starting point
+        for(int j = i; j<n; j++){       //(j=i)loop for ending point
+            for(int k=i; k<=j; k++ ){   /* k=i (starting point) k<=j(Ending Point) ; Print element between i and j i.e subarray*/
                 cout<<arr[k]<<" ";
             }
             cout<<endl;
