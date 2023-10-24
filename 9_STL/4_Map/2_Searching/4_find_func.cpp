@@ -1,4 +1,6 @@
-/*
+/*  
+    It returns iterator :
+
     The find function returns an iterator : 
         that points to the element with the key if 
         it exists in the map or the end() iterator if the key is not found.

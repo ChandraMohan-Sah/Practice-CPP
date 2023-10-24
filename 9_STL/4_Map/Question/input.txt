@@ -1,0 +1,15 @@
+15
+abc 
+def 
+abc 
+ghj 
+jkl 
+ghj
+abc
+def 
+def 
+ghj 
+okl
+okl
+ckl 
+ckl

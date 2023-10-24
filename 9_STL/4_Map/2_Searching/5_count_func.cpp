@@ -1,39 +1,28 @@
 /*
-The map::count(key) :
-returns 1 if the element with key K 
-is present in the map container. 
+	Easy method : it return value(0 or 1) insted of iterator.
 
-returns 0 if the element with key K 
-is not present in the container.
+    If the key is found in the map, mp.count(key) returns 1.
+    If the key is not found in the map, mp.count(key) returns 0.
 
 */
 
-#include <bits/stdc++.h> 
-using namespace std; 
+#include <iostream>
+#include <map>
+using namespace std;
 
-int main() 
-{ 
+int main() {
+    std::map<int, std::string> mp;
 
-	map<int, int> mp; 
+    mp[1] = "One";
+    mp[2] = "Two";
 
-	mp.insert({ 2, 30 }); 
-	mp.insert({ 1, 40 }); 
-	mp.insert({ 3, 60 }); 
-	mp.insert({ 4, 20 }); 
-	mp.insert({ 5, 50 }); 
+    int key = 2;
 
-	// checks if key 1 is present or not 
-	if (mp.count(1)) 
-		cout << "The key 1 is present\n"; 
-	else
-		cout << "The key 1 is not present\n"; 
+    if (mp.count(key) > 0) {
+        cout << "Key " << key << " exists in the map." << std::endl;
+    } else {
+        cout << "Key " << key << " does not exist in the map." << std::endl;
+    }
 
-
-	// checks if key 100 is present or not 
-	if (mp.count(100)) 
-		cout << "The key 100 is present\n"; 
-	else
-		cout << "The key 100 is not present\n"; 
-
-	return 0; 
-} 
+    return 0;
+}
