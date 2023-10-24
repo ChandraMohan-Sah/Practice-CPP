@@ -29,7 +29,7 @@ int main()
     }    
     
     for(int i=0; i<3; i++){
-        cout<< s_array[i].first <<endl<< s_array[i].second;
+        cout<< s_array[i].first <<" "<< s_array[i].second<<endl;
     }
 
     return 0;

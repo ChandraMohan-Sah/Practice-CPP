@@ -45,7 +45,7 @@ int main()
     cout<<s<<endl; 
 
     //Concatenation of strings
-    string x = "Hello";
+    string x = "Hello ";
     string y = "Learning Strings";
     cout<<endl<<x<<endl; 
     cout<<y<<endl; 

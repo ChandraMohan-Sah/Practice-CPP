@@ -23,7 +23,7 @@ using namespace std;
 
 class Solution {
 public:
-    int numIdenticalPairs(vector<int>& nums) {
+    int numIdenticalPairs(vector<int>& nums){
         unordered_map<int, int> ans;
         int count = 0;
 
