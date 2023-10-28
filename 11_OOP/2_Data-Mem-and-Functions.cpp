@@ -1,22 +1,20 @@
 /*
-Class -----Data members
-        |--Functions  related to that object
-        |--Example - Update Price
-                   - Total cars
+    Class -----Data members
+            |--Functions  related to that object
+            |--Example - Update Price
+                    - Total cars
 
-//Data members of data type Car
-+---------+
-| Price   |  c.price = 100;
-+---------+
-| model   |  c.model = 112;
-+---------+
-| name    |  c.name[0] = 'BMW';
-+---------+
-
-
-//Access Modifier : Private, Public
+    //Data members of data type Car
+    +---------+
+    | Price   |  c.price = 100;
+    +---------+
+    | model   |  c.model = 112;
+    +---------+
+    | name    |  c.name[0] = 'BMW';
+    +---------+
 
 
+    //Access Modifier : Private, Public
 
 */
 
@@ -30,7 +28,7 @@ public:
     int model_no;
     char name[20];
 
-    //Members
+    //Member-function
     void print(){
         cout<<"Car Name : "<<name<<endl;
         cout<<"Model no : "<<model_no <<endl;
