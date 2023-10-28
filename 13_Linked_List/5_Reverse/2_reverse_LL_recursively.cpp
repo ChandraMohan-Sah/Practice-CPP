@@ -42,25 +42,42 @@ node* take_input(node* &head){ //modify head
     return head;
 }
 
-
-void ReverseListRecursive(node* &head){ //modification of head is done ; So pass by reference .
-    node* prev = NULL;
-    node* current = head;
-    node* temp;
-
-    //base case
-    if(current == NULL){
-        return ;
+//less efficient
+node* ReverseListRecursive(node* head){ //modification of head is done ; So pass by reference .
+    //Smallest Linked List
+    if(head->next == NULL || head==NULL){
+        return head;
     }
 
-    //recursive case
-    temp = current->next;
-    current->next = prev;
+    //Rec Case
+    node* shead = ReverseListRecursive(head->next);
 
-    prev = current;
-    current = temp;
+    node* temp = shead;
+    while(temp-> next !=NULL){
+        temp = temp->next;
+    }
 
-    return ReverseListRecursive(current);
+    head->next = NULL;
+    temp->next = head;
+    return shead;
+}
+
+
+//Optimized code 
+node* RevListRecur(node* head){ //modification of head is done ; So pass by reference .
+    //Smallest Linked List
+    if(head->next == NULL || head==NULL){
+        return head;
+    }
+
+    //Rec Case
+    node* shead = ReverseListRecursive(head->next);
+
+    
+    node * temp = head ->next;
+    temp->next = head;
+    head->next = NULL;
+    return shead;
 }
 
 
@@ -74,7 +91,8 @@ int main()
 
 
     cout<<"Reversed Linked List : "<<endl;
-    ReverseListRecursive(head);
+    // head = ReverseListRecursive(head);
+    head = RevListRecur(head);
     print(head);
 
 

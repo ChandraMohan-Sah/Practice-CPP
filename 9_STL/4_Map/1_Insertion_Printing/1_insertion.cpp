@@ -22,6 +22,7 @@ int main() {
     m[1] = "abc";
     m[4] = "cdc";
     m[3] = "acd";
+    m[3] = "jkl";
     m.insert({2, "afg"});
 
     //Inserting using Range Based Loops.

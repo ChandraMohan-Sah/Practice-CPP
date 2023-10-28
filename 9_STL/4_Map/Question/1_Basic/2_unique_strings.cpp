@@ -1,9 +1,9 @@
 /*
-Given N string, print unique strings in lexiographical order with their
-frequecy.
+    Given N string, print unique strings in lexiographical order with their
+    frequecy.
 
-N <= 10^5
-|S| <= 100000 ; S--> size of string
+    N <= 10^5
+    |S| <= 100000 ; S--> size of string
 
 */
 

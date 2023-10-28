@@ -51,7 +51,7 @@ void ReverseList(node* &head){ //modification of head is done ; So pass by refer
 
     node* prev = NULL;
     node* current = head;
-    node* temp;  
+    node* temp;  //statically made ; erases as soon as exits function
 
     while(current != NULL){
         //save the next node
@@ -68,7 +68,7 @@ void ReverseList(node* &head){ //modification of head is done ; So pass by refer
     head = prev;
     return;
 }
-
+    
 
 int main()
 {   

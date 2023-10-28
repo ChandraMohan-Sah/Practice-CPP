@@ -16,7 +16,7 @@
     e.g head->data ; gives data field of node currently being pointed.
         head->next ; gives next address field of node connected to current node.
 
-
+                                                           
 ->So, when this line [node *head = new node();] is executed, it creates 
   a new node object on the heap, initializes it with the default constructor 
   (if one exists in the node class), and stores the address of that object 
@@ -86,3 +86,15 @@ int main(){
 
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
