@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {       
-    //push_back('character')
+    //push_back('character') : at end of any string
     string a={"Happy Happy "};
     a.push_back('D');
     a.push_back('A');

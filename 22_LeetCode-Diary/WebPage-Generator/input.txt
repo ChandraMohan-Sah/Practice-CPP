@@ -1,0 +1,13 @@
+Sum of 
+
+1.Sum of Subarray Minimums - DP Optional
+Medium 
+https://leetcode.com/problems/sum-of-subarray-minimums/description/
+
+2.Sum of Subarray Ranges
+Medium 
+https://leetcode.com/problems/sum-of-subarray-ranges/
+
+3.Sum of Total Strength of Wizards
+Hard 
+https://leetcode.com/problems/sum-of-total-strength-of-wizards/

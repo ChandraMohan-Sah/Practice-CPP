@@ -7,7 +7,7 @@ using namespace std;
 /*Double has higher precedence then float
 
 Precedence order of calculation
-    1.Double (Highest among all)
+    1.Double ----->(Highest among all)
     2.Float
     3.ll int
     4.l int
@@ -27,7 +27,7 @@ int main()
 
 
     //2.Calculation then storing
-    /*It was calculated in float ; ans was = 1.5 ;
+    /*It was calculated in float ; ans was  1.5 ;
     But later on while storing it was stored as 1
     since bucket storing ans is int data type.
     */

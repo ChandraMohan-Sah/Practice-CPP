@@ -1,0 +1,181 @@
+Implement : Reverse
+
+1.Implement Stack using Queues
+Easy
+https://leetcode.com/problems/implement-stack-using-queues
+
+2.Implement Queue using Stacks
+Easy 
+https://leetcode.com/problems/implement-queue-using-stacks
+
+3.Evaluate Reverse Polish Notation
+Medium 
+https://leetcode.com/problems/evaluate-reverse-polish-notation
+
+4.Basic Calculator
+Hard
+https://leetcode.com/problems/basic-calculator/description/
+
+
+
+Parenthesis
+
+1.Remove Outermost Parentheses
+Easy
+https://leetcode.com/problems/remove-outermost-parentheses
+
+2.Maximum Nesting Depth of the Parentheses
+Easy
+https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses
+
+3.Valid Parentheses
+Easy
+https://leetcode.com/problems/valid-parentheses
+
+4.Minimum Add to Make Parentheses Valid
+Medium 
+https://leetcode.com/problems/minimum-add-to-make-parentheses-valid
+
+5.Minimum Remove to Make Valid Parentheses
+Medium 
+https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses
+
+6.Longest Valid Parentheses
+Hard 
+https://leetcode.com/problems/longest-valid-parentheses
+
+7.Maximum Nesting Depth of Two Valid Parentheses Strings
+Medium 
+https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings
+
+8.Reverse Substrings Between Each Pair of Parentheses
+Medium 
+https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses
+
+9.Score of Parentheses
+Medium
+https://leetcode.com/problems/score-of-parentheses
+
+10.Minimum Insertions to Balance a Parentheses String
+Medium 
+https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string
+
+11.Check if a Parentheses String Can Be Valid
+Medium 
+https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid
+
+
+
+Stock Span 
+
+1.Online Stock Span
+Medium
+https://leetcode.com/problems/online-stock-span/description/
+
+2.Daily Temperatures
+Medium 
+https://leetcode.com/problems/daily-temperatures/
+
+
+Trapping Rain Water
+
+1.Trapping Rain Water
+Hard 
+https://leetcode.com/problems/trapping-rain-water/description/
+
+2.Trapping Rain Water II - Heap : BFS
+Hard  
+https://leetcode.com/problems/trapping-rain-water-ii/
+
+
+Histogram  : Plate 
+
+1.Largest Rectangle in Histogram
+Hard
+https://leetcode.com/problems/largest-rectangle-in-histogram/description/
+
+2.Dinner Plate Stacks - Heap
+Hard
+https://leetcode.com/problems/dinner-plate-stacks
+
+
+
+Maximal 
+
+1.Maximal Rectangle - DP
+Hard 
+https://leetcode.com/problems/maximal-rectangle/description/
+
+1.Maximal Square - DP
+Medium
+https://leetcode.com/problems/maximal-square/description/
+
+
+Tower 
+
+1.Beautiful Towers I
+Medium
+https://leetcode.com/problems/beautiful-towers-i/description/
+
+2.Beautiful Towers II
+Medium 
+https://leetcode.com/problems/beautiful-towers-ii
+
+3.TOH 
+Easy 
+https://www.codingninjas.com/studio/problems/tower-of-hanoi_981323
+
+
+Min and Max Stack 
+
+1.Min Stack 
+Medium 
+https://leetcode.com/problems/min-stack/description/
+
+2.Max Stack 
+Easy 
+https://www.codingninjas.com/studio/problems/max-stack_985280
+
+3.Max Chunks To Make Sorted
+Medium 
+https://leetcode.com/problems/max-chunks-to-make-sorted
+
+4.Max Chunks To Make Sorted II
+Hard 
+https://leetcode.com/problems/max-chunks-to-make-sorted-ii
+
+
+Remaining Que.
+
+1.The Celebrity Problem
+Medium 
+https://www.codingninjas.com/studio/problems/the-celebrity-problem_982769
+
+Collision 
+
+1.Asteroid Collision
+Medium 
+https://leetcode.com/problems/asteroid-collision/description/
+
+2.Count Collisions on a Road
+Medium 
+https://leetcode.com/problems/count-collisions-on-a-road/description/
+
+3.Robot Collisions
+Hard 
+https://leetcode.com/problems/robot-collisions/description/
+
+Sum of 
+
+1.Sum of Subarray Minimums - DP Optional
+Medium 
+https://leetcode.com/problems/sum-of-subarray-minimums/description/
+
+2.Sum of Subarray Ranges
+Medium 
+https://leetcode.com/problems/sum-of-subarray-ranges/
+
+3.Sum of Total Strength of Wizards
+Hard 
+https://leetcode.com/problems/sum-of-total-strength-of-wizards/
+
