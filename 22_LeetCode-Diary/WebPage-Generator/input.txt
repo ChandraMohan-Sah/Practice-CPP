@@ -1,13 +1,10 @@
-Sum of 
+Distance Between two nodes 
 
-1.Sum of Subarray Minimums - DP Optional
+1.Distance between two nodes of a Tree
 Medium 
-https://leetcode.com/problems/sum-of-subarray-minimums/description/
+https://www.codingninjas.com/studio/problems/distance-between-two-nodes-of-a-tree_800303
 
-2.Sum of Subarray Ranges
+2.Min distance between two given nodes of a Binary Tree
 Medium 
-https://leetcode.com/problems/sum-of-subarray-ranges/
+https://practice.geeksforgeeks.org/problems/min-distance-between-two-given-nodes-of-a-binary-tree/1
 
-3.Sum of Total Strength of Wizards
-Hard 
-https://leetcode.com/problems/sum-of-total-strength-of-wizards/
