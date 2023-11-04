@@ -1,10 +1,11 @@
-Distance Between two nodes 
+Fixed Sized Sliding Window
 
-1.Distance between two nodes of a Tree
+1.Maximum Sum of Distinct Subarrays With Length K
 Medium 
-https://www.codingninjas.com/studio/problems/distance-between-two-nodes-of-a-tree_800303
+https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/description/
 
-2.Min distance between two given nodes of a Binary Tree
+2.First Negative In Every Window
 Medium 
-https://practice.geeksforgeeks.org/problems/min-distance-between-two-given-nodes-of-a-binary-tree/1
+https://www.codingninjas.com/studio/problems/first-negative-in-every-window_759333
+
 
