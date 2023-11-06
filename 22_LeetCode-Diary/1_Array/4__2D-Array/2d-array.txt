@@ -1,0 +1,67 @@
+2D Array 
+
+1.Decl and Initialiize [static , Dynamic , UserInput , 2D-arrray-func] 
+Easy 
+#
+
+2.Basic Arithmetics [See Old Notes ]
+Easy 
+#
+
+3.Wave Print 
+Medium 
+https://www.codingninjas.com/studio/problems/print-like-a-wave_893268
+
+
+
+
+
+4.Set Matrix Zeros 
+Medium 
+https://leetcode.com/problems/set-matrix-zeroes/description/
+
+5.Game of Life
+Medium 
+https://leetcode.com/problems/game-of-life/
+
+6.Number of Laser Beams in a Bank
+Medium 
+https://leetcode.com/problems/number-of-laser-beams-in-a-bank/description/
+
+
+
+
+7.Spiral Print 
+Medium 
+https://leetcode.com/problems/spiral-matrix/description/
+
+Spiral Matrix II
+Medium 
+https://leetcode.com/problems/spiral-matrix-ii/
+
+Spiral Matrix III 
+Medium 
+https://leetcode.com/problems/spiral-matrix-iii/
+
+Spiral Matrix IV
+Medium 
+https://leetcode.com/problems/spiral-matrix-iv/
+
+
+
+
+4.Rotate Image [BY 90 degree]
+Medium 
+https://leetcode.com/problems/rotate-image/description/
+
+5.Determine Whether Matrix Can Be Obtained By Rotation
+Easy 
+https://leetcode.com/problems/rotate-image/description/
+
+5.Stair-Case Search 
+Medium 
+https://leetcode.com/problems/search-a-2d-matrix/description/
+
+6.Search a 2D Matrix II
+Medium 
+https://leetcode.com/problems/search-a-2d-matrix-ii/
