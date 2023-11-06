@@ -1,13 +1,25 @@
-Lowest Common Ancestor in BST 
+Recursive Tree : Void return type , Passing more than 1 args:
 
-1.Lowest Common Ancestor in BST [Geeks]
+1.TOH 
+Medium 
+https://www.geeksforgeeks.org/problems/tower-of-hanoi-1587115621/1
+
+2.Print Subsets recursively 
+Medium 
+https://leetcode.com/problems/subsets/description/
+
+3.Permutation with spaces
 Easy 
-https://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-bst/1
+https://practice.geeksforgeeks.org/problems/permutation-with-spaces3627/1
 
-2.Lowest Common Ancestor in BST [Leetcode]
-Medium 
-https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/
+4.Permutation with Case Change
+Read It
+https://www.geeksforgeeks.org/permute-string-changing-case/
 
-3.Serialize And Deserialize BST  [Rem Que]
+5.Letter Case Permutation
 Medium 
-https://leetcode.com/problems/serialize-and-deserialize-bst/description/
+https://leetcode.com/problems/letter-case-permutation/description/
+
+6.Print N - Bit binary numbers having more 1's than 0's for any prefix
+Medium 
+https://practice.geeksforgeeks.org/problems/print-n-bit-binary-numbers-having-more-1s-than-0s0252/1

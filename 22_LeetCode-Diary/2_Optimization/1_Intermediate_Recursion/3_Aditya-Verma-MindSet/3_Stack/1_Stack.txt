@@ -1,0 +1,8 @@
+Stack, void return type , Passing more than 1 arguments in recursive function:
+        1.Balanced Parenthesis [Recursive Tree ]
+        2.Delete Middle Element in stack.
+        4.Reverse Stack.
+        5.Sort stack
+
+--> Watch these Videos 
+
